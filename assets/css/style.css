@@ -29,18 +29,13 @@ body {
 
 /* navbar start */
 nav {
+  /* position: absolute; */
+  /* position: fixed; */
   top: 0;
   background: var(--secondary);
   height: 65px;
   width: 100%;
-}
-
-label.logo {
-  color: var(--primary);
-  font-size: 30px;
-  line-height: 65px;
-  padding: 0 100px;
-  font-weight: bold;
+  z-index: 10;
 }
 
 nav ul {
@@ -87,6 +82,7 @@ main {
 /* navbar end */
 
 .opening h1 {
+  font-size: 35px;
   text-align: center;
   color: var(--secondary);
 }
