@@ -10,36 +10,38 @@
     <title>Nayeon | Biodata</title>
   </head>
   <body>
-    <nav>
-      <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#bio">Biodata</a></li>
-        <li><a href="#karier">Karier</a></li>
-        <li><a href="#karya">Karya</a></li>
-        <li><a href="#prestasi">Prestasi</a></li>
-        <li><a href="#fakta">Fakta</a></li>
-      </ul>
-    </nav>
-    <br />
-
     <!-- HEADER START -->
-    <header class="header-member">
-      <h1 class="title">Biografi Nayeon Twice</h1>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#bio">Biodata</a></li>
+          <li><a href="#karier">Karier</a></li>
+          <li><a href="#karya">Karya</a></li>
+          <li><a href="#prestasi">Prestasi</a></li>
+          <li><a href="#fakta">Fakta</a></li>
+        </ul>
+      </nav>
       <br />
-      <img src="assets/img/nayeon.jpg" class="card-photo" alt="nayeon" />
-      <br />
-      <p>Nayeon merupakan member tertua dalam grup populer TWICE. Kelahiran tahun 1995, ia masih terlihat imut dan awet muda. Ia juga dikenal akan kemampuannya untuk melakukan aegyo secara natural.</p>
-      <br />
-      <p>Di balik kesuksesannya dalam grup TWICE, Nayeon memiliki perjalanan yang panjang dan berliku. Walau sempat gagal debut, dirinya terus bangkit dan berusaha hingga namanya berhasil dikenal seperti sekarang.</p>
     </header>
     <!-- HEADER END -->
 
     <!-- MAIN START -->
     <main>
+      <div class="header-member">
+        <h1 class="title">Biografi Nayeon Twice</h1>
+        <br />
+        <img src="assets/img/nayeon.jpg" class="card-photo" alt="nayeon" />
+        <br />
+        <p>Nayeon merupakan member tertua dalam grup populer TWICE. Kelahiran tahun 1995, ia masih terlihat imut dan awet muda. Ia juga dikenal akan kemampuannya untuk melakukan aegyo secara natural.</p>
+        <br />
+        <p>Di balik kesuksesannya dalam grup TWICE, Nayeon memiliki perjalanan yang panjang dan berliku. Walau sempat gagal debut, dirinya terus bangkit dan berusaha hingga namanya berhasil dikenal seperti sekarang.</p>
+      </div>
+
       <div id="content">
         <article id="bio" class="card-member">
           <h1>Biodata Umum</h1>
@@ -140,10 +142,10 @@
         <br />
         <br />
       </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
     </main>
     <!-- MAIN END -->
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
 
     <script src="assets/js/script.js"></script>
   </body>
